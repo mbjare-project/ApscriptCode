@@ -1,0 +1,11 @@
+function onOpen() {
+  const ui = SpreadsheetApp.getUi();
+  ui.createMenu('Web App')
+    .addItem('Deploy Web App', 'deployWebApp')  //"deployWebApp" is the name of the function, "Web App" is what will appear as a custom menu and "Deploy Web App" is the submenu
+    .addToUi();
+}
+
+
+function deployWebApp() {
+// your code 
+}
